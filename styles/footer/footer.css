@@ -1,0 +1,78 @@
+footer {
+  padding: 66px 32px 105px 32px;
+}
+footer .footerWrap1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(2, 170px);
+  color: var(--dark2);
+}
+footer .footerWrap2 {
+  grid-column: span 2;
+  height: 136px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .logo {
+  height: 36px;
+  width: 198px;
+}
+footer .idea {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+footer .socialBox {
+  width: 118px;
+  display: flex;
+  justify-content: space-between;
+}
+footer img {
+  cursor: pointer;
+}
+footer .linkTheme {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+footer p {
+  cursor: pointer;
+}
+footer a {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 12px;
+  text-decoration: none;
+  color: var(--dark2);
+  display: block;
+  cursor: pointer;
+}
+footer .footerWrap3 {
+  padding-top: 40px;
+  color: var(--light3);
+}
+footer .footerWrap3 .copyright {
+  font-size: 20px;
+  font-weight: 400;
+  grid-column: span 2;
+}
+footer .footerWrap3 .launchDate {
+  display: none;
+}
+
+@media (min-width: 1100px) {
+  footer {
+    padding: 150px 80px 105px 80px;
+  }
+  footer .footerWrap1 {
+    grid-template-columns: 4fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  footer .footerWrap1 .footerWrap2 {
+    grid-column: span 1;
+  }
+}/*# sourceMappingURL=footer.css.map */

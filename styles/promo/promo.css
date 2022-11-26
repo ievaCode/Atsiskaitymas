@@ -1,0 +1,57 @@
+.promo {
+  height: 326px;
+  box-sizing: border-box;
+  background-image: url("../../images/background_gradient.png");
+  padding: 122px 32px 32px 32px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.promo .promoTextWrap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.promo h3 {
+  font-size: 40px;
+  line-height: 48px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+}
+.promo p {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+}
+
+@media (min-width: 1100px) {
+  .promo {
+    margin: 0 80px;
+    height: 320px;
+    background-image: url("../../images/background2.png");
+    border: 1px solid var(--green);
+    padding: 154px 64px 64px 64px;
+    border-radius: 20px;
+  }
+  .promo .promoTextWrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .promo h3 {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+  }
+  .promo p {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+  }
+}/*# sourceMappingURL=promo.css.map */

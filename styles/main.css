@@ -1,0 +1,11 @@
+@import url('https://necolas.github.io/normalize.css/8.0.1/normalize.css');
+
+
+@import url('./common/common.css');
+@import url('./header/header.css');
+@import url('./launch/launch.css');
+@import url('./promo/promo.css');
+@import url('./partners/partners.css');
+@import url('./auction/auction.css');
+@import url('./aboutNFT/aboutNFT.css');
+@import url('./footer/footer.css')

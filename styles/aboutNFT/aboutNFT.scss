@@ -1,0 +1,33 @@
+.section.aboutNFT{
+  padding: 66px 0 66px 32px;
+  box-shadow: 1px 1px 1px var(--light3);
+  .sectionHero{
+    padding-top: 160px;
+  }
+  .sectionWrap{   
+    width: 54%;
+  }
+  .sectionHero{
+    height: 467px;
+    width: auto; 
+    position: absolute;
+    bottom: 0;
+    right: -30px;
+    overflow: hidden;   
+  }
+}
+
+@media (min-width: 1100px) {
+  .section.aboutNFT{
+    padding: 80px 80px 220px 80px;  
+    .sectionTextWrap{
+      width: 90%; 
+    } 
+    .sectionHero{
+      bottom: 0;
+      right: 261px;
+      height: 519px;
+    }
+  }
+}
+
